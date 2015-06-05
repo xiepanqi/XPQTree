@@ -14,6 +14,9 @@
 		DFA2351A1B20447800A65769 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA235191B20447800A65769 /* Images.xcassets */; };
 		DFA2351D1B20447800A65769 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA2351B1B20447800A65769 /* LaunchScreen.xib */; };
 		DFA235291B20447800A65769 /* XPQTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA235281B20447800A65769 /* XPQTreeTests.m */; };
+		DFA235351B2044F200A65769 /* XPQTreeNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA235341B2044F200A65769 /* XPQTreeNodeData.m */; };
+		DFA235381B20450A00A65769 /* XPQTree.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA235371B20450A00A65769 /* XPQTree.m */; };
+		DFA2353B1B2065DA00A65769 /* XPQTreeNodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA2353A1B2065DA00A65769 /* XPQTreeNodeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		DFA235221B20447800A65769 /* XPQTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XPQTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA235271B20447800A65769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFA235281B20447800A65769 /* XPQTreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPQTreeTests.m; sourceTree = "<group>"; };
+		DFA235331B2044F200A65769 /* XPQTreeNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPQTreeNodeData.h; sourceTree = "<group>"; };
+		DFA235341B2044F200A65769 /* XPQTreeNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPQTreeNodeData.m; sourceTree = "<group>"; };
+		DFA235361B20450A00A65769 /* XPQTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPQTree.h; sourceTree = "<group>"; };
+		DFA235371B20450A00A65769 /* XPQTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPQTree.m; sourceTree = "<group>"; };
+		DFA235391B2065DA00A65769 /* XPQTreeNodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPQTreeNodeCell.h; sourceTree = "<group>"; };
+		DFA2353A1B2065DA00A65769 /* XPQTreeNodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPQTreeNodeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,7 @@
 		DFA2350B1B20447800A65769 /* XPQTree */ = {
 			isa = PBXGroup;
 			children = (
+				DFA235321B2044BD00A65769 /* XPQTree */,
 				DFA235101B20447800A65769 /* AppDelegate.h */,
 				DFA235111B20447800A65769 /* AppDelegate.m */,
 				DFA235131B20447800A65769 /* ViewController.h */,
@@ -117,6 +127,19 @@
 				DFA235271B20447800A65769 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFA235321B2044BD00A65769 /* XPQTree */ = {
+			isa = PBXGroup;
+			children = (
+				DFA235331B2044F200A65769 /* XPQTreeNodeData.h */,
+				DFA235341B2044F200A65769 /* XPQTreeNodeData.m */,
+				DFA235391B2065DA00A65769 /* XPQTreeNodeCell.h */,
+				DFA2353A1B2065DA00A65769 /* XPQTreeNodeCell.m */,
+				DFA235361B20450A00A65769 /* XPQTree.h */,
+				DFA235371B20450A00A65769 /* XPQTree.m */,
+			);
+			name = XPQTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA235381B20450A00A65769 /* XPQTree.m in Sources */,
 				DFA235151B20447800A65769 /* ViewController.m in Sources */,
+				DFA235351B2044F200A65769 /* XPQTreeNodeData.m in Sources */,
+				DFA2353B1B2065DA00A65769 /* XPQTreeNodeCell.m in Sources */,
 				DFA235121B20447800A65769 /* AppDelegate.m in Sources */,
 				DFA2350F1B20447800A65769 /* main.m in Sources */,
 			);

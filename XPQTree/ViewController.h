@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "XPQTree.h"
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet XPQTree *testTree;
 
 @end
 
